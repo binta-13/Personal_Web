@@ -1,0 +1,142 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  margin: 0px;
+}
+nav {
+  background-color: bisque;
+  display: flex;
+  height: 7vh;
+}
+
+nav .left {
+  padding: 10px;
+  flex: 50%;
+  padding-left: 90px;
+  display: flex;
+  align-items: center;
+}
+nav .left ul {
+  display: inline;
+}
+
+nav .left ul li {
+  display: inline;
+}
+
+nav .left ul li a {
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+  align-items: center;
+}
+
+nav .right {
+  padding: 10px;
+  flex: 50%;
+  text-align: right;
+  padding-right: 90px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav .right a {
+  background-color: orangered;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+/* akhir navbar */
+
+.container {
+  /* background-color: aquamarine; */
+  height: 93vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .layout {
+  display: flex;
+  width: 85%;
+}
+
+.layout .left {
+  flex: 35%;
+}
+.layout .left .konten {
+  margin-left: 100px;
+  border: 1px solid black;
+  width: 300px;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 3px 2px 10px gray;
+}
+.layout .left .konten img {
+  width: 100%;
+  border-radius: 10px;
+}
+.layout .left .konten h1 {
+  text-align: left;
+}
+.layout .left .konten p {
+  color: grey;
+  text-align: left;
+  margin-top: -5px;
+  margin-bottom: 16px;
+}
+.layout .left .konten table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.layout .right {
+  /* background-color: orangered; */
+  flex: 70%;
+}
+.layout p {
+  color: gray;
+}
+.layout .right .skill {
+  display: flex;
+}
+.container .right .skill .satu {
+  /* background-color: aquamarine; */
+  flex: 1;
+  margin-right: 10px;
+}
+.container .right .skill .dua {
+  /* background-color: bisque; */
+  flex: 1;
+  margin-right: 10px;
+}
+.container .right .skill .tiga {
+  /* background-color: blanchedalmond; */
+  flex: 1;
+  margin-right: 10px;
+}
+.container .right .skill img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+.container .right .sosmed {
+  position: absolute;
+  margin-top: 20px;
+}
+.container .right .sosmed a {
+  cursor: pointer;
+  margin-top: 20px;
+}
+.container .right .sosmed img {
+  /* width: 50px; */
+  margin-top: -25;
+  height: 50px;
+}
+.github {
+  height: 80px;
+}
